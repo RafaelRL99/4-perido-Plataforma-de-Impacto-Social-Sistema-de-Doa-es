@@ -1,0 +1,33 @@
+
+```mermaid
+flowchart LR
+  subgraph Plataforma["Plataforma de Doações"]
+    UC1["Cadastrar Conta"]
+    UC2["Autenticar"]
+    UC3["Cadastrar Item"]
+    UC4["Consultar Itens"]
+    UC5["Criar Solicitação"]
+    UC6["Atualizar Status de Item"]
+    UC7["Validar/Concluir Entrega"]
+    UC8["Emitir Relatórios"]
+    UC9["Gerenciar Parcerias"]
+  end
+
+  Doador --> UC1
+  Beneficiario --> UC1
+  Organizacao --> UC1
+  Doador --> UC2
+  Beneficiario --> UC2
+  Organizacao --> UC2
+  Admin --> UC2
+
+  Doador --> UC3
+  Beneficiario --> UC4
+  Doador --> UC4
+  Beneficiario --> UC5
+  Organizacao --> UC7
+  Doador --> UC6
+  Admin --> UC8
+  Organizacao --> UC8
+  Admin --> UC9
+```

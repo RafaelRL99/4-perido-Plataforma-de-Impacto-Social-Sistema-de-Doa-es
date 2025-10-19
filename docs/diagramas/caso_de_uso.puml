@@ -1,0 +1,39 @@
+
+@startuml
+left to right direction
+actor Doador
+actor Beneficiario
+actor Organizacao
+actor Admin
+
+rectangle "Plataforma de Doações" {
+  usecase "Cadastrar Conta" as UC1
+  usecase "Autenticar" as UC2
+  usecase "Cadastrar Item" as UC3
+  usecase "Consultar Itens" as UC4
+  usecase "Criar Solicitação" as UC5
+  usecase "Atualizar Status de Item" as UC6
+  usecase "Validar/Concluir Entrega" as UC7
+  usecase "Emitir Relatórios" as UC8
+  usecase "Gerenciar Parcerias" as UC9
+}
+
+Doador --> UC1
+Beneficiario --> UC1
+Organizacao --> UC1
+Doador --> UC2
+Beneficiario --> UC2
+Organizacao --> UC2
+Admin --> UC2
+
+Doador --> UC3
+Beneficiario --> UC4
+Doador --> UC4
+Beneficiario --> UC5
+Organizacao --> UC7
+Doador --> UC6
+Admin --> UC8
+Organizacao --> UC8
+Admin --> UC9
+
+@enduml

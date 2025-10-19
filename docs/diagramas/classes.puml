@@ -1,0 +1,45 @@
+
+@startuml
+class Usuario {
+  +id: int
+  +nome: string
+  +email: string
+  +senhaHash: string
+  +perfil: enum
+}
+
+class Doador
+class Beneficiario
+class Organizacao
+
+Usuario <|-- Doador
+Usuario <|-- Beneficiario
+Usuario <|-- Organizacao
+
+class Item {
+  +id: int
+  +nome: string
+  +quantidade: int
+  +status: enum
+  +dataCadastro: datetime
+}
+
+class Solicitacao {
+  +id: int
+  +descricao: text
+  +status: enum
+}
+
+class Parceria {
+  +id: int
+  +nome: string
+  +tipo: string
+  +contato: string
+  +observacoes: text
+}
+
+Doador "1" -- "0..*" Item : registra >
+Beneficiario "1" -- "0..*" Solicitacao : cria >
+Item "0..1" -- "0..*" Solicitacao : pode atender >
+Organizacao "1" -- "0..*" Item : valida/conclui >
+@enduml
