@@ -20,9 +20,8 @@
 
 ---
 
-### Como usar esta capa
-- Ao exportar para PDF (via VS Code ou outro), mantenha margens padrão ABNT (2,5 cm) e fonte 12.
-- Se quiser incluir **curso**, **professor(a)** e **disciplina** na folha de rosto, crie um arquivo `FOLHA_DE_ROSTO.md` com:
+
+
   - Curso/Disciplina: Tema Integrador III — Projeto de Sistemas (Extensionista)
   - Professor(a): Denise Moraes
   - Natureza do trabalho: Atividade 1 — Documentação do Projeto
