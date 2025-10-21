@@ -21,11 +21,10 @@ Ver `docs/requisitos/RegrasNegocio.md` (RB01…RB06).
 
 ## 5. Diagramas
 **Figura 1 – Diagrama de Caso de Uso da Plataforma de Doações.**  
-_Fonte: elaboração própria (2025)._  
+ 
 ![Figura 1 — Caso de Uso](diagramas/img/figura_01_caso_de_uso.png)
 
 **Figura 2 – Diagrama de Classes da Plataforma de Doações.**  
-_Fonte: elaboração própria (2025)._  
+_  
 ![Figura 2 — Classes](diagramas/img/figura_02_classes.png)
 
-> Para gerar as figuras, abra `docs/diagramas/preview_caso_de_uso.html` e `preview_classes.html` e exporte como PDF/PNG.
