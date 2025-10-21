@@ -8,28 +8,40 @@
 **Local e Ano:** Rio de Janeiro — RJ, 2025  
 **Foco social:** ODS 17 — Parcerias e Meios de Implementação
 
-Este repositório contém a **Atividade 1** do projeto, com documentação organizada para publicação no GitHub.
+Projeto acadêmico com foco social para apoiar doações e solicitações de ajuda por meio de uma plataforma simples.  
+Este repositório reúne a **Atividade 1 (Documentação do projeto)**.
 
-## Estrutura
-```
-docs/
-├─ requisitos/
-│  ├─ RF.md                 # Requisitos funcionais (RF01…)
-│  ├─ RNF.md                # Requisitos não funcionais (RNF01…)
-│  └─ RegrasNegocio.md      # Regras de negócio (RB01…)
-├─ diagramas/
-│  ├─ caso_de_uso.puml
-│  ├─ classes.puml
-│  ├─ caso_de_uso.mmd
-│  ├─ classes.mmd
-│  ├─ preview_caso_de_uso.html
-│  ├─ preview_classes.html
-│  └─ img/
-│     ├─ figura_01_caso_de_uso.png   # exportar pelo preview
-│     └─ figura_02_classes.png        # exportar pelo preview
-├─ Relatorio_Atividade_1.md           # relatório com figuras e legendas ABNT
-└─ CAPA_ABNT.md                       # modelo de capa ABNT
-```
+---
+
+## Objetivo desta fase (Atividade 1)
+- Consolidar **Requisitos Funcionais (RF)**, **Requisitos Não Funcionais (RNF)** e **Regras de Negócio (RB)**.  
+- Disponibilizar **diagramas UML** (Caso de Uso e Classes).  
+- Entregar **relatório** com capa ABNT e figuras dos diagramas.
+
+## Entregáveis principais
+- **Requisitos**
+  - [`docs/requisitos/RF.md`](docs/requisitos/RF.md)
+  - [`docs/requisitos/RNF.md`](docs/requisitos/RNF.md)
+  - [`docs/requisitos/RegrasNegocio.md`](docs/requisitos/RegrasNegocio.md)
+- **Diagramas (imagens no relatório)**
+  - Caso de Uso: [`docs/diagramas/img/figura_01_caso_de_uso.png`](docs/diagramas/img/figura_01_caso_de_uso.png)
+  - Classes: [`docs/diagramas/img/figura_02_classes.png`](docs/diagramas/img/figura_02_classes.png)
+- **Relatório e Capa**
+  - [`docs/Relatorio_Atividade_1.md`](docs/Relatorio_Atividade_1.md)
+  - [`CAPA_ABNT.md`](CAPA_ABNT.md)
+
+## Como visualizar/editar os diagramas
+- **PlantUML** (`.puml`): abra no VS Code com a extensão *PlantUML* → *Export Current Diagram* para PNG/SVG.
+  - [`docs/diagramas/caso_de_uso.puml`](docs/diagramas/caso_de_uso.puml)
+  - [`docs/diagramas/classes.puml`](docs/diagramas/classes.puml)
+- **Pré-visualização rápida no navegador** (opcional):
+  - [`docs/diagramas/preview_caso_de_uso.html`](docs/diagramas/preview_caso_de_uso.html)
+  - [`docs/diagramas/preview_classes.html`](docs/diagramas/preview_classes.html)
+
+
+## Próximas fases (visão geral)
+- **Parte 2**: Modelo de dados (MER) .  
+- **Parte 3**: Protótipo Flask + MySQL (CRUD básico) com autenticação simples.
 
 ## Publicação no GitHub
 ```bash
@@ -39,4 +51,3 @@ git commit -m "Atividade 1: documentação (RF/RNF/RB, UML, relatório, capa ABN
 git branch -M main
 git remote add origin https://github.com/<seu-usuario>/<seu-repo>.git
 git push -u origin main
-```
