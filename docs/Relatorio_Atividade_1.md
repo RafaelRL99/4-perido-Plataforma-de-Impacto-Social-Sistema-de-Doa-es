@@ -30,6 +30,6 @@ _
 
 **Figura X – DER (Modelo Lógico) da Plataforma de Doações.**  
  
-![Figura X — DER](./diagramas/img/der_plataforma_doacoes.png)
+![Figura X — DER](./diagramas/img/der_plataforma_doacoes.PNG)
 
 
