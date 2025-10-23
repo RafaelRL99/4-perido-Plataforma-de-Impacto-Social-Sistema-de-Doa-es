@@ -28,3 +28,8 @@ Ver `docs/requisitos/RegrasNegocio.md` (RB01…RB06).
 _  
 ![Figura 2 — Classes](diagramas/img/figura_02_classes.png)
 
+**Figura X – DER (Modelo Lógico) da Plataforma de Doações.**  
+ 
+![Figura X — DER](./diagramas/img/der_plataforma_doacoes.png)
+
+
