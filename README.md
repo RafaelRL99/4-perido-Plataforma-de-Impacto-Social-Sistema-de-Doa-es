@@ -9,7 +9,7 @@
 **Foco social:** ODS 17 — Parcerias e Meios de Implementação
 
 Projeto acadêmico com foco social para apoiar doações e solicitações de ajuda por meio de uma plataforma simples.  
-Este repositório reúne a **Atividade 1 (Documentação do projeto)**.
+Este repositório reúne a **Atividade 1 e 2 (Documentação do projeto)**.
 
 ---
 
