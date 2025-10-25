@@ -34,20 +34,9 @@ Este repositório reúne a **Atividade 1 (Documentação do projeto)**.
 - **PlantUML** (`.puml`): abra no VS Code com a extensão *PlantUML* → *Export Current Diagram* para PNG/SVG.
   - [`docs/diagramas/caso_de_uso.puml`](docs/diagramas/caso_de_uso.puml)
   - [`docs/diagramas/classes.puml`](docs/diagramas/classes.puml)
-- **Pré-visualização rápida no navegador** (opcional):
-  - [`docs/diagramas/preview_caso_de_uso.html`](docs/diagramas/preview_caso_de_uso.html)
-  - [`docs/diagramas/preview_classes.html`](docs/diagramas/preview_classes.html)
-
 
 ## Próximas fases (visão geral)
 - **Parte 2**: Modelo de dados (MER) .  
 - **Parte 3**: Protótipo Flask + MySQL (CRUD básico) com autenticação simples.
 
-## Publicação no GitHub
-```bash
-git init
-git add .
-git commit -m "Atividade 1: documentação (RF/RNF/RB, UML, relatório, capa ABNT)"
-git branch -M main
-git remote add origin https://github.com/<seu-usuario>/<seu-repo>.git
-git push -u origin main
+
